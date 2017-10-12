@@ -198,10 +198,13 @@ class QRCodeViewController: BaseViewController {
         let colorSpace = CGColorSpaceCreateDeviceGray()
         
         let bitmapRef = CGContext(data: nil, width: Int(width), height: Int(height), bitsPerComponent: 8, bytesPerRow: 0, space: colorSpace, bitmapInfo: CGImageAlphaInfo.none.rawValue)
+        /*
         if bitmapRef != nil {
             return UIImage(ciImage:ciImage)
         }
+ */
         //这里有个bug问题CIContext(options:nil)会crash
+        //kCIContextUseSoftwareRenderer 使用cpu还是GPU处理
         let context = CIContext(options:[kCIContextUseSoftwareRenderer : NSNumber(value: false)])
 
         let bitmapImage = context.createCGImage(ciImage, from: extentRect)

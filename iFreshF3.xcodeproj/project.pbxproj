@@ -806,6 +806,7 @@
 				TargetAttributes = {
 					B6C0C82E1E70F95C00E92720 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J4E37J446A;
 						ProvisioningStyle = Automatic;
 					};
 					B6C0C8421E70F95C00E92720 = {
@@ -1286,7 +1287,7 @@
 			baseConfigurationReference = B662B4C8FFF06EB0D0DAD22C /* Pods-iFreshF3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J4E37J446A;
 				INFOPLIST_FILE = iFreshF3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1312,7 +1313,7 @@
 			baseConfigurationReference = 66F00077AD8D440D0696431F /* Pods-iFreshF3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J4E37J446A;
 				INFOPLIST_FILE = iFreshF3/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
